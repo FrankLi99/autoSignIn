@@ -6,7 +6,7 @@ import requests
 import os
 import json
 import logging
-logging.basicConfig(level=logging.info)
+logging.basicConfig(level=logging.INFO)
 from sendNotify import send
 
 updateAccesssTokenURL = 'https://auth.aliyundrive.com/v2/account/token'
