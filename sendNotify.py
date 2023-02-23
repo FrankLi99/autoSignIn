@@ -433,8 +433,8 @@ def send(title, content):
                 continue
             else:
                 print('此类推送方式不存在')
-        except Exception as e:
-            print(f"推送故障了！！！ 详情: {e}")
+        except BaseException as e:
+            print(f"第三方推送故障了！！！ 详情: {e}")
 
 def main():
     send('title', 'content')

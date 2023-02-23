@@ -6,13 +6,13 @@ import requests
 import os
 import json
 import logging
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.info)
 from sendNotify import send
 
 updateAccesssTokenURL = 'https://auth.aliyundrive.com/v2/account/token'
 signinURL = 'https://member.aliyundrive.com/v1/activity/sign_in_list'
 
-os.environ.setdefault("refreshToken", "abc&def&123")
+# os.environ.setdefault("refreshToken", "abc&def&123")
 class AutoSignInTool(object):
     # 通过 refresh token 更新 access_token 并获得昵称
     @staticmethod
