@@ -8,6 +8,7 @@ import json
 import logging
 logging.basicConfig(level=logging.INFO)
 from sendNotify import send
+requests.packages.urllib3.disable_warnings()
 
 updateAccesssTokenURL = 'https://auth.aliyundrive.com/v2/account/token'
 signinURL = 'https://member.aliyundrive.com/v1/activity/sign_in_list'
