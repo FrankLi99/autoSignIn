@@ -12,4 +12,4 @@
 - 本项目仅做学习交流, 禁止用于各种非法途径
 - 项目中的所有内容均源于互联网, 仅限于小范围内学习参考, 如有侵权请第一时间联系 本项目作者 进行删除
 - 如果有帮到你，请帮忙 star 一下，小生不胜感激！
-- 更多分享可以在 [tg频道](@free_knowlege_share) , [tg群组](@allfreesupergroup) 找到
+- 更多分享可以在 [tg频道](https://t.me/+U7HfTpOLpNphYWU1) , [tg群组](https://t.me/+EbVwV9gsrk00NjJl) 找到
